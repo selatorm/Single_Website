@@ -1,0 +1,510 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    ;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px 0px;
+}
+.nav-logo {
+    height: 100px;
+}
+.nav-menu {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 60px;
+}
+.nav-menu{
+    padding: 20px;
+} 
+.nav-menu > li :hover{
+    background: #000;
+    padding: 20px;
+}
+.nav-item a {
+    color: rgb(115, 112, 112);
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar-btn {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.main-container {
+    background-color: black;
+}
+.company-registration-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-registration-content  {
+    margin-left: 20px;
+    font-size: 15px;
+    color: white; 
+    width: 50%;
+    margin-top: 100px;
+}
+.main-registration-content p {
+    font-size: 10px;
+    color: white;
+    margin-bottom: 15px;
+}
+.main-registration-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+.main-registration-content li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.main-registration-content img {
+    width: 30px; 
+}
+.main-registration-content h5 {
+    font-size: 15px;
+    color: white; 
+}
+.main-registration-form{
+    background: rgb(255, 255, 255);
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    width: 38%;
+    height: 75vh;
+    border-radius: 40px;
+    padding: 30px 50px;
+    margin-top: 40px;
+}
+.main-registration-content h1{
+    font-size: 3.3em;
+    margin-bottom: 10px;
+}
+.main-registration-content p{
+    font-weight: bold;
+    font-size: 1em;
+}
+.main-registration-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.form-info {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+}
+.firstname , .lastname , .email ,.phone-number ,.company, .role{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-weight: bold;
+    font-size: 1em;
+}
+input{
+    padding: 25px;
+    width: 100%;
+    border: 1px solid transparent;
+    font-size: 1.2em;
+    border-radius: 35px;
+    outline: none;
+    margin-top: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+input:hover{
+    border: 1px solid blue;
+}
+.main-registration-form button{
+    padding: 25px;
+    font-size: 1.4em;
+    font-weight: bold;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    margin-top: 25px;
+}
+.company-partner-section {
+    padding: 2em;
+    background-color: #f9f9f9; 
+    text-align: center;
+}
+.company-partner-section h2 {
+    font-size: 2em;
+    color: #333; 
+    margin-bottom: 1.5em;
+}
+.partners {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.partner {
+    background-color: #fff;
+    padding: 1.5em;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+}
+.partner p {
+    font-size: 1em;
+    color: #666; 
+    margin-bottom: 1em;
+}
+.company {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+.company h4 {
+    font-size: 1.2em;
+    color: #333; 
+    margin-right: 0.5em;
+    margin-right: 60%;
+    margin-top: 40px;
+}
+.company p {
+    font-size: 0.9em;
+    color: #999; 
+    margin-right: 0.5em;
+    margin-right: 51%;
+}
+.company img {
+    width: 100px; 
+    height: auto;
+    margin-right: 70%;
+}
+.company-services-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(112, 107, 107, 0.1);
+    height: 60vh;
+}
+.service {
+    margin-top: 30px;
+    text-align: left;
+    max-width: 300px;
+}
+.service img {
+    width: 80px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.service h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+.service p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+.company-call-to-call-service-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.call-to-call-content {
+    max-width: 600px;
+}
+.call-to-call-content h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+.call-to-call-content p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.group-btn {
+    display: flex;
+    gap: 20px;
+}
+.btn {
+    padding: 20px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #e6001f;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#talk-to-sale{
+    border-radius: 20px ;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+}
+.btn:hover {
+    background-color: #005bb5;
+}
+.call-to-call-img img {
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    margin-left: 50px;
+    height: 65vh;
+}
+.company-process-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.company-process-section h4 {
+    font-size: 1.5em;
+    color: #e74c3c; /* Red color */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.company-process-section h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+.company-process-section p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 40px;
+}
+.company-features-section {
+    padding: 40px;
+    background-color: #fcfcfc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.company-features-section h2 {
+    font-size: 2em;
+    color: #010101;
+    margin-bottom: 20px;
+}
+.our-processes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.process {
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.process span {
+    display: block;
+    font-size: 70px;
+    color: #e74c3c; 
+    margin-bottom: 10px;
+    background: rgb(190, 178, 178);
+    height: 15vh;
+    width: 40%;
+    margin-left: 35%;
+    margin-top: 20px;
+    border-radius: 100px; 
+}
+span{
+    margin-right: 60px;
+}
+.process h3 {
+    font-size: 1.5em;
+    color: #191616;
+    margin-bottom: 10px;
+}
+.process p {
+    font-size: 1em;
+    color: #0f0f0f;
+    line-height: 1.5;
+}
+.company-features-section p {
+    font-size: 1.2em;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.our-features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    order: 2 solid black;
+    background-color: #ffffff;
+}
+.feature {
+    max-width: 500px;
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 18px;
+}
+.feature:hover{
+    background-color: #9dadbd;
+}
+.feature img {
+    display: flex;
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.feature-content h3 {
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.feature-content p {
+    font-size: 1em;
+    color: #000000;
+    line-height: 1.5;
+}
+.company-fqa-section{
+    background-color: #fcfcfc;
+    height: 100vh;
+    font: bold;
+}
+.fqa-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    order: 2 solid black;
+}
+.fqa-card {
+    max-width: 480px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: left;
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+.fqa-cards {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fqa-card {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+.fqa-card:hover {
+    background-color: #d97eb699;
+}
+.fqa-card-question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.question {
+    font-weight: bold;
+}
+.fqa-card span {
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000; 
+    margin-bottom: 10px;
+    background: rgb(220, 223, 231);
+    height: 5vh;
+    width: 10%;
+    border-radius: 10px; 
+    text-align: center;
+
+
+}
+
+
+.footer-container {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 0;
+    font: bold;
+}
+.footer-menu-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    text-decoration: none;
+}
+.menu {
+    flex: 1;
+}
+.menu-header {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.menu li {
+    margin: 5px 0;
+}
+.menu a {
+    color: #000000;
+    text-decoration: none;
+}
+.languages-section  {
+    text-align: center;
+    margin: 10px 0;
+}
+.languages-section a  {
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+}
+.languages-active {
+    font-weight: bolder;
+}
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #444;
+}
+.footer-left ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-left li {
+    margin: 5px 0;
+}
+.footer-left a {
+    color: #000000;
+    text-decoration: none;
+}
+.footer-right {
+    align-self: center;
+}
